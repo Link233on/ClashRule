@@ -90,6 +90,3 @@ DOMAIN-SUFFIX,modelcontextprotocol.io
 DOMAIN,cdn.growthbook.io
 IP-CIDR,160.79.104.0/23,no-resolve
 IP-CIDR6,2607:6bc0::/48,no-resolve
-
-# ======== 禁用 QUIC ========
-AND,(AND,(DST-PORT,443),(NETWORK,udp)),(NOT,(GEOIP,cn)),REJECT
